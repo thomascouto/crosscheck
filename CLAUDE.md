@@ -9,15 +9,15 @@ crosscheck: interactive CLI that pulls open jobs at hiring Y Combinator startups
 ## Commands
 
 ```sh
-npm start                    # interactive run (prompts for filters)
+pnpm start                    # interactive run (prompts for filters)
 node crosscheck.mjs --last      # replay filters from .last-filters.json, no prompts
 node crosscheck.mjs --refresh   # ignore the 24h cache
 node crosscheck.mjs --no-details
-npm test                     # node --test (lib.test.mjs)
+pnpm test                     # node --test (lib.test.mjs)
 node --test --test-name-pattern="inferRole"   # single test
 ```
 
-Node 24, ESM, single dependency `@inquirer/prompts`.
+Node 22+, pnpm, ESM, single dependency `@inquirer/prompts`. Releases via release-please: use conventional commits (`feat:`, `fix:`, `chore:`); merging the release PR tags and publishes the GitHub release.
 
 ## Data flow
 

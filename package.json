@@ -41,5 +41,6 @@
   },
   "bugs": {
     "url": "https://github.com/thomascouto/crosscheck/issues"
-  }
+  },
+  "packageManager": "pnpm@10.18.1"
 }

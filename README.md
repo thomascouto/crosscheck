@@ -22,20 +22,20 @@ Role type is not exposed publicly, so it is inferred from the title (frontend, f
 
 ## Requirements
 
-Node 22 or newer. One dependency, `@inquirer/prompts`.
+Node 22 or newer and pnpm (pinned via `packageManager`; `corepack enable` gets it). One dependency, `@inquirer/prompts`.
 
 ## Install
 
 ```sh
 git clone https://github.com/thomascouto/crosscheck
 cd crosscheck
-npm install
+pnpm install
 ```
 
 ## Usage
 
 ```sh
-npm start                      # interactive: prompts for filters
+pnpm start                      # interactive: prompts for filters
 node crosscheck.mjs --last     # replay the filters saved in .last-filters.json
 node crosscheck.mjs --refresh  # ignore the cache
 node crosscheck.mjs --no-details
@@ -62,7 +62,7 @@ Rewrite at least a sentence yourself before sending. Work at a Startup says huma
 ## Development
 
 ```sh
-npm test                                        # unit tests for lib.mjs
+pnpm test                                        # unit tests for lib.mjs
 node --test --test-name-pattern="inferRole"     # one test
 ```
 
