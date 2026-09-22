@@ -1,0 +1,18 @@
+{
+  "name": "crosscheck",
+  "version": "1.0.0",
+  "description": "Cross-check your CV against every open job at hiring Y Combinator startups (Work at a Startup), with interactive filters.",
+  "scripts": {
+    "test": "node --test",
+    "start": "node crosscheck.mjs"
+  },
+  "license": "MIT",
+  "type": "module",
+  "private": "true",
+  "dependencies": {
+    "@inquirer/prompts": "^8.7.2"
+  },
+  "bin": {
+    "crosscheck": "./crosscheck.mjs"
+  }
+}

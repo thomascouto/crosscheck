@@ -1,0 +1,11 @@
+node_modules/
+.cache/
+out/
+.last-filters.json
+
+# never commit the CV or anything derived from it
+*[Rr]esume*
+*CV*
+*[Cc]urric*
+*.pdf
+*.docx
