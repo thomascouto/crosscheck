@@ -14,5 +14,32 @@
   },
   "bin": {
     "crosscheck": "./crosscheck.mjs"
+  },
+  "keywords": [
+    "y-combinator",
+    "ycombinator",
+    "work-at-a-startup",
+    "workatastartup",
+    "yc-jobs",
+    "startup-jobs",
+    "job-search",
+    "job-scraper",
+    "remote-jobs",
+    "resume",
+    "cv",
+    "cv-matching",
+    "claude-code",
+    "claude-code-skill",
+    "algolia",
+    "inertiajs",
+    "cli"
+  ],
+  "homepage": "https://github.com/thomascouto/crosscheck#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thomascouto/crosscheck.git"
+  },
+  "bugs": {
+    "url": "https://github.com/thomascouto/crosscheck/issues"
   }
 }
